@@ -21,5 +21,7 @@ devtools::check()
 usethis::use_readme_rmd()
 
 usethis::use_git_config(user.name = "wgcantah", user.email = "william.cantah@ucc.edu.gh")
+usethis::create_github_token()
 credentials::set_github_pat()
 usethis::use_git()
+usethis::use_github()
